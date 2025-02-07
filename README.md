@@ -10,7 +10,7 @@ Rodando os testes: ./mvnw quarkus:test
 
 Rodando o Docker com Postgres
 
-Para rodar o Docker com o Postgres, onde o banco de dados estará configurado, basta utilizar o comando docker-compose up. Esse comando irá iniciar os containers necessários para a aplicação, incluindo o Postgres.
+Para rodar o Docker com o Postgres, onde o banco de dados estará configurado, basta descomentar as linhas do datasource no application.properties utilizar o comando docker-compose up. Esse comando irá iniciar os containers necessários para a aplicação, incluindo o Postgres.
 
 Acessando a API Documentada com Swagger
 
