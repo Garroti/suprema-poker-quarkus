@@ -2,13 +2,11 @@ suprema
 
 Este projeto utiliza o Quarkus, o framework Supersonic Subatomic Java, para construir e rodar a API. A seguir estão as instruções para rodar a aplicação em dev mode, rodar os testes, e usar o Docker com o Postgres.
 
-Rodando a aplicação em Dev Mode
+Rodando a aplicação em Dev Mode: ./mvnw quarkus:dev
 
-Para rodar a aplicação em dev mode, que permite live coding (alterações de código em tempo real), basta executar o comando Maven para iniciar a aplicação. Em dev mode, a aplicação será disponibilizada em http://localhost:8080. Além disso, o Quarkus possui uma interface para desenvolvimento, chamada Dev UI, que pode ser acessada em http://localhost:8080/q/dev/.
+Para rodar a aplicação em dev mode, que permite live coding (alterações de código em tempo real), basta executar o comando Maven para iniciar a aplicação. Em dev mode, a aplicação será disponibilizada em http://localhost:8080.
 
-Rodando os testes
-
-Para rodar os testes da aplicação, basta executar o comando Maven para executar todos os testes configurados no projeto.
+Rodando os testes: ./mvnw quarkus:test
 
 Rodando o Docker com Postgres
 
